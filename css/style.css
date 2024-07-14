@@ -11,6 +11,7 @@ h1 {
 h2 {
     background-color:blanchedalmond;
     color:firebrick;
+    text-decoration: underline;
 }
 
 .center {
