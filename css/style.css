@@ -61,10 +61,24 @@ hr {
   border-radius: 25px;
   width: 300px;
   margin: auto;
-  padding: 10px 0px;
+  padding-bottom: 100px;
   background-color: bisque;
 }
 
 body{
   background-color: white;
+}
+
+blockquote {
+  background-color: rgb(205, 205, 205);
+  padding: 20px;
+  border-radius: 25px;
+  width: 360px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+footer {
+  font-size: 12px;
+  color: #bababa;
 }
