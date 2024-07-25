@@ -5,13 +5,33 @@
 h1 {
     background-color:blanchedalmond;
     text-align: center;
-    color: rgb(78, 131, 133);
+    color: #4e8385;
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 25px;
+    border: 2px solid #4e8385;
+    padding: 10px 2px;
 }
 
 h2 {
     background-color:blanchedalmond;
     color:firebrick;
     text-decoration: underline;
+    border: 1px solid firebrick;
+    border-radius: 25px;
+    text-align: center;
+    width: 200px;
+    margin: 20px auto;
+}
+
+img{
+  border-radius: 25px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .center {
@@ -26,12 +46,25 @@ h2 {
     padding: 20px;
   }
 
-  .recipe-ul li {
-    background: rgb(255, 246, 232);
-    color: rgb(130, 26, 26);
-    margin-left: 35px;
-  }
+.recipe-ul li {
+  background: rgb(255, 246, 232);
+  color: rgb(130, 26, 26);
+  margin-left: 35px;
+}
 
-  .anchor-home {
-    text-align: center;
-  }
+.anchor-home {
+  text-align: center;
+}
+
+.recipe-container{
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 300px;
+  margin: auto;
+  padding: 10px 0px;
+  background-color: bisque;
+}
+
+body{
+  background-color: white;
+}
